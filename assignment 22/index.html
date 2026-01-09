@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Calc</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+<div class="mainBox">
+
+        <h2>SCIENTIFIC CALCULATOR</h2>
+
+<input   type="text"   id="screen"   value="0"   >
+
+
+
+<div class="btns">
+
+<button class="big" onclick="clr()">Clear</button>
+<button class="big" onclick="back()">Backspace</button>
+<button class="big" onclick="calc()">Enter</button>
+
+<button onclick="press('Math.exp(')">exp</button>
+<button onclick="press('7')">7</button>
+<button onclick="press('8')">8</button>
+<button onclick="press('9')">9</button>
+<button onclick="press('/')">/</button>
+
+<button onclick="press('Math.log(')">ln</button>
+<button onclick="press('4')">4</button>
+<button onclick="press('5')">5</button>
+<button onclick="press('6')">6</button>
+<button onclick="press('*')">*</button>
+
+<button onclick="press('Math.sqrt(')">sqrt</button>
+<button onclick="press('1')">1</button>
+<button onclick="press('2')">2</button>
+<button onclick="press('3')">3</button>
+<button onclick="press('-')">-</button>
+
+<button onclick="press('**2')">sq</button>
+<button onclick="press('0')">0</button>
+<button onclick="press('.')">.</button>
+<button onclick="plusMinus()">+/-</button>
+<button onclick="press('+')">+</button>
+
+<button onclick="press('(')">(</button>
+<button onclick="press('Math.cos(')">cos</button>
+<button onclick="press('Math.sin(')">sin</button>
+<button onclick="press('Math.tan(')">tan</button>
+<button onclick="press(')')">)</button>
+
+</div>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
