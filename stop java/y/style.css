@@ -1,0 +1,27 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #32725a;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.box {
+  background:#634699;
+  padding: 60px;
+  width: 290px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #252424;
+}
+
+button {
+  padding: 8px 12px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 10%;
+  color: #0b0c0c;
+  background-color: rgb(84, 158, 94);
+  cursor: pointer;
+}
